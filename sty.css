@@ -1,0 +1,79 @@
+*{
+  padding: 0px;
+  box-sizing: border-box;
+  margin:0px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+nav{
+  position:relative;
+  display:flex;
+  justify-content:flex-end;
+  padding:20px;
+}
+nav ul{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+nav ul li{
+  list-style: none;
+  margin-left:20px;
+}
+nav ul li a{
+  text-decoration:none;
+  
+}
+nav a button{
+  background-color:blue;
+  color:white;
+  border:none;
+  padding:8px 14px;
+  font-size:14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* -----css for advance page--------*/
+.separator{
+    border-bottom: solid 1px #d6d6d6;
+  }
+.advanced-container {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap:50px;
+    justify-content: left;
+  }
+  .container{
+    margin-left: 80px;
+    margin-top:50px;
+  }
+  .grid-form{
+    display:grid;
+    grid-template-columns: 200px 450px auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    column-gap: 50px;
+  }
+  .i-form{
+    width:500px;
+    height:30px; 
+  }
+  label{
+    margin-left: 40px;
+    font-size:10px;
+  }
+  .blue-button{
+    background-color:rgb(134, 134, 241);
+    color:white;
+    border:none;
+    padding:8px 14px;
+    font-size:14px;
+    border-radius: 5px;
+    cursor: pointer;
+    width:auto;
+    margin-top:30px;
+    margin-left:690px;
+  
+  }
+ 
+  
